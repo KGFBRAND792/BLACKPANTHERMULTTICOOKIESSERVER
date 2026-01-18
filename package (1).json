@@ -1,0 +1,28 @@
+{
+  "name": "vedant-messaging-system",
+  "version": "1.0.0",
+  "description": "VEDANT Multi-User Messaging System with Auto-Recovery",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "keywords": [
+    "messaging",
+    "automation",
+    "facebook",
+    "multi-user"
+  ],
+  "author": "VEDANT",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "ws": "^8.14.2",
+    "axios": "^1.6.2",
+    "fca-mafiya": "latest",
+    "uuid": "^9.0.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
