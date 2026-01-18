@@ -1,3 +1,6 @@
+// save as index.js
+// npm install express ws axios fca-mafiya uuid
+
 const express = require('express');
 const cookieParser = require('cookie-parser');
 const { v4: uuidv4 } = require('uuid');
@@ -91,3 +94,4 @@ app.listen(port, () => {
 });  
 
             
+
