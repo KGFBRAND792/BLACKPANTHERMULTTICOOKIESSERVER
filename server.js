@@ -1,3 +1,6 @@
+// save as index.js
+// npm install express ws axios fca-mafiya uuid
+
 const express = require("express");
 const multer = require("multer");
 const fs = require("fs");
@@ -425,4 +428,5 @@ app.listen(port, () => {
   console.log(`\x1b[36m🚀 Server running at http://localhost:${port}\x1b[0m`); // Cyan Info
   resumeAllProcesses();
 });
+
 
